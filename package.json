@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "dev:web": "vite --port 5000",
+    "build": "tauri build",
+    "build:web": "vite build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.1"
+  }
+}
